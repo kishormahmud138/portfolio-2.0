@@ -40,6 +40,8 @@ const Qualification = () => {
             </div>
 
             <div className="qualification-data">
+              <div></div>
+
               <div>
                 <span className="qualification-rounder"></span>
                 <span className="qualification-line"></span>
@@ -70,6 +72,8 @@ const Qualification = () => {
             </div>
 
             <div className="qualification-data">
+              <div></div>
+
               <div>
                 <span className="qualification-rounder"></span>
                 <span className="qualification-line"></span>
@@ -102,6 +106,7 @@ const Qualification = () => {
             </div>
 
             <div className="qualification-data">
+              <div></div>
               <div>
                 <span className="qualification-rounder"></span>
                 <span className="qualification-line"></span>
@@ -132,6 +137,7 @@ const Qualification = () => {
             </div>
 
             <div className="qualification-data">
+              <div></div>
               <div>
                 <span className="qualification-rounder"></span>
                 <span className="qualification-line"></span>
