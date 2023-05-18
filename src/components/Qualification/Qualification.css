@@ -45,7 +45,7 @@
 
 .qualification-data {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
 }
 
@@ -78,4 +78,40 @@
     height: 100%;
     background-color: var(--text-color);
     transform: translate(6px, -7px);
+}
+
+
+
+/*========== BreakPoints ==========*/
+/* For Large Device */
+@media screen and (max-width: 992px) {
+    .qualification-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* For Medium Device */
+@media screen and (max-width: 768px) {
+    .qualification-container {
+        margin-left: var(--m-1-5);
+        margin-right: var(--m-1-5);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .qualification-section {
+        grid-template-columns: initial;
+    }
+
+    .qualification-button {
+        margin: 0 var(--m-0-75);
+    }
+}
+
+/* For Small Device */
+@media screen and (max-width: 350px) {
+    .qualification-data {
+        gap: 10px;
+    }
 }

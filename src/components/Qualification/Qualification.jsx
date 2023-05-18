@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Qualification.css";
 
 const Qualification = () => {
+  const [active, setActive] = useState(1);
+
+  const activeToggle = (index) => {
+    setActive(index);
+  };
+
   return (
     <section className="qualification section">
       <h2 className="section-title">Qualification</h2>
@@ -11,19 +17,39 @@ const Qualification = () => {
 
       <div className="qualification-container container">
         <div className="qualification-tabs">
-          <div className="qualification-button button-flex">
+          <div
+            className={
+              active === 1
+                ? "qualification-button qualification-active button-flex"
+                : "qualification-button button-flex"
+            }
+            onClick={() => activeToggle(1)}
+          >
             <i className="uil uil-graduation-cap qualification-icon"></i>{" "}
             Education
           </div>
 
-          <div className="qualification-button button-flex">
+          <div
+            className={
+              active === 2
+                ? "qualification-button qualification-active button-flex"
+                : "qualification-button button-flex"
+            }
+            onClick={() => activeToggle(2)}
+          >
             <i className="uil uil-briefcase-alt qualification-icon"></i>{" "}
             Experience
           </div>
         </div>
 
         <div className="qualification-section">
-          <div className="qualification-content qualification-content-active">
+          <div
+            className={
+              active === 1
+                ? "qualification-content qualification-content-active"
+                : "qualification-content"
+            }
+          >
             <div className="qualification-data">
               <div>
                 <h3 className="qualification-title">SSC</h3>
@@ -89,7 +115,28 @@ const Qualification = () => {
             </div>
           </div>
 
-          <div className="qualification-content">
+          <div
+            className={
+              active === 2
+                ? "qualification-content qualification-content-active"
+                : "qualification-content"
+            }
+          >
+            <div className="qualification-data">
+              <div></div>
+              <div>
+                <span className="qualification-rounder"></span>
+                <span className="qualification-line"></span>
+              </div>
+              <div>
+                <h3 className="qualification-title">SSC</h3>
+                <span className="qualification-subtitle">Deuty school</span>
+                <div className="qualification-calendar">
+                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                </div>
+              </div>
+            </div>
+
             <div className="qualification-data">
               <div>
                 <h3 className="qualification-title">SSC</h3>
@@ -133,22 +180,6 @@ const Qualification = () => {
               <div>
                 <span className="qualification-rounder"></span>
                 <span className="qualification-line"></span>
-              </div>
-            </div>
-
-            <div className="qualification-data">
-              <div></div>
-              <div>
-                <span className="qualification-rounder"></span>
-                <span className="qualification-line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification-title">SSC</h3>
-                <span className="qualification-subtitle">Deuty school</span>
-                <div className="qualification-calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
-                </div>
               </div>
             </div>
           </div>
