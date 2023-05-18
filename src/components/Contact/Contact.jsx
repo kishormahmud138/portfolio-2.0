@@ -8,21 +8,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_am9kbsm",
-        "template_46msg38",
-        form.current,
-        "VZ816vykUK5zC0Jy1"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(
+      "service_am9kbsm",
+      "template_46msg38",
+      form.current,
+      "VZ816vykUK5zC0Jy1"
+    );
+    e.target.reset();
   };
 
   return (
