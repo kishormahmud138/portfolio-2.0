@@ -137,6 +137,10 @@
 }
 
 @media screen and (max-width: 576px) {
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .services-modal-content {
         padding: 4.5rem 1.5rem 2.5rem;
     }
@@ -148,9 +152,7 @@
 
 /* For Small Device */
 @media screen and (max-width: 350px) {
-    .services-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
+
 
     .services-content {
         padding-right: 6rem;

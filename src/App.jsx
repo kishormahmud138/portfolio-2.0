@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Qualification from "./components/Qualification/Qualification";
+import ScrollUp from "./components/ScrollUp/ScrollUp";
 import Services from "./components/Services/Services";
 import Skills from "./components/Skills/Skills";
 import Testimonial from "./components/Testimonial/Testimonial";
@@ -27,6 +28,7 @@ function App() {
       </main>
 
       <Footer></Footer>
+      <ScrollUp></ScrollUp>
     </>
   );
 }
