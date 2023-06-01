@@ -12,6 +12,7 @@
 
 .about-me {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .about-me p {
@@ -44,7 +45,7 @@
 }
 
 .about-subtitle {
-    font-size: var(--tiny-font-size)
+    font-size: var(--tiny-font-size);
 }
 
 .about-description {
