@@ -15,149 +15,9 @@ const Services = () => {
       <div className="services-container container grid">
         <div className="services-content">
           <div>
-            <i className="uil uil-web-grid services-icon"></i>
-            <h3 className="services title">
-              Product <br /> Designer
-            </h3>
-          </div>
-
-          <span className="services-button" onClick={() => toggleModal(1)}>
-            View More
-            <i className="uil uil-arrow-right services-button-icon"></i>
-          </span>
-
-          <div
-            className={
-              modal === 1 ? "services-modal active-modal" : "services-modal"
-            }
-          >
-            <div className="services-modal-content">
-              <i
-                onClick={() => toggleModal(0)}
-                className="uil uil-times services-modal-close"
-              ></i>
-
-              <h3 className="services-modal-title">Product Designer</h3>
-              <p className="services-modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Suscipit similique sequi magni iusto, consequatur laborum.
-              </p>
-
-              <ul className="services-modal-services grid">
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="services-content">
-          <div>
-            <i className="uil uil-arrow services-icon"></i>
-            <h3 className="services title">
-              UI/Ux <br /> Designer
-            </h3>
-          </div>
-
-          <span className="services-button" onClick={() => toggleModal(2)}>
-            View More
-            <i className="uil uil-arrow-right services-button-icon"></i>
-          </span>
-
-          <div
-            className={
-              modal === 2 ? "services-modal active-modal" : "services-modal"
-            }
-          >
-            <div className="services-modal-content">
-              <i
-                onClick={() => toggleModal(0)}
-                className="uil uil-times services-modal-close"
-              ></i>
-
-              <h3 className="services-modal-title">UI/UX Designer</h3>
-              <p className="services-modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Suscipit similique sequi magni iusto, consequatur laborum.
-              </p>
-
-              <ul className="services-modal-services grid">
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-
-                <li className="services-modal-services-item">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">
-                    I develop the user Interface
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="services-content">
-          <div>
             <i className="uil uil-edit services-icon"></i>
             <h3 className="services title">
-              Visual <br /> Designer
+              Web <br /> Designer
             </h3>
           </div>
 
@@ -177,45 +37,188 @@ const Services = () => {
                 className="uil uil-times services-modal-close"
               ></i>
 
-              <h3 className="services-modal-title">Visual Designer</h3>
+              <h3 className="services-modal-title">Web Designer</h3>
               <p className="services-modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Suscipit similique sequi magni iusto, consequatur laborum.
+                I use creative programming skills to design, build and improve
+                websites.
               </p>
 
               <ul className="services-modal-services grid">
                 <li className="services-modal-services-item">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I develop the user Interface
+                    Conceptualizing creative ideas with clients.
                   </p>
                 </li>
 
                 <li className="services-modal-services-item">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I develop the user Interface
+                    Establishing design guidelines, standards, and best
+                    practices.
                   </p>
                 </li>
 
                 <li className="services-modal-services-item">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I develop the user Interface
+                    Working with different content management systems.
                   </p>
                 </li>
 
                 <li className="services-modal-services-item">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I develop the user Interface
+                    Designing sample pages including colors and fonts.
                   </p>
                 </li>
 
                 <li className="services-modal-services-item">
                   <i className="uil uil-check-circle services-modal-icon"></i>
                   <p className="services-modal-info">
-                    I develop the user Interface
+                    Testing and improving the design of the website.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="services-content">
+          <div>
+            <i className="uil uil-web-grid services-icon"></i>
+            <h3 className="services title">
+              Frontend <br /> Developer
+            </h3>
+          </div>
+
+          <span className="services-button" onClick={() => toggleModal(1)}>
+            View More
+            <i className="uil uil-arrow-right services-button-icon"></i>
+          </span>
+
+          <div
+            className={
+              modal === 1 ? "services-modal active-modal" : "services-modal"
+            }
+          >
+            <div className="services-modal-content">
+              <i
+                onClick={() => toggleModal(0)}
+                className="uil uil-times services-modal-close"
+              ></i>
+
+              <h3 className="services-modal-title">Frontend Developer</h3>
+              <p className="services-modal-description">
+                As a frontend Developer I Design Creative Website With Css and
+                Tailwind. That look so minimalist.
+              </p>
+
+              <ul className="services-modal-services grid">
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Develop features to enhance the users’ experience
+                  </p>
+                </li>
+
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Striking a balance between functional and aesthetic design.
+                  </p>
+                </li>
+
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Make sure the web design is responsive for more device.
+                  </p>
+                </li>
+
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Build reusable code for future use
+                  </p>
+                </li>
+
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Keep the brand consist throughout the whole design
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="services-content">
+          <div>
+            <i className="uil uil-arrow services-icon"></i>
+            <h3 className="services title">
+              Backend <br /> Developer
+            </h3>
+          </div>
+
+          <span className="services-button" onClick={() => toggleModal(2)}>
+            View More
+            <i className="uil uil-arrow-right services-button-icon"></i>
+          </span>
+
+          <div
+            className={
+              modal === 2 ? "services-modal active-modal" : "services-modal"
+            }
+          >
+            <div className="services-modal-content">
+              <i
+                onClick={() => toggleModal(0)}
+                className="uil uil-times services-modal-close"
+              ></i>
+
+              <h3 className="services-modal-title">Backend Developer</h3>
+              <p className="services-modal-description">
+                Back-end development refers to designing, altering, and fixing
+                the software part of a website.
+              </p>
+
+              <ul className="services-modal-services grid">
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Putting in place server-side frameworks for client-facing
+                    functionality
+                  </p>
+                </li>
+
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Modifying security settings to stop hacker attempts
+                  </p>
+                </li>
+
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Offering assistance with web server technology
+                  </p>
+                </li>
+
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Application programming interface and server-side component
+                    integration (API)
+                  </p>
+                </li>
+
+                <li className="services-modal-services-item">
+                  <i className="uil uil-check-circle services-modal-icon"></i>
+                  <p className="services-modal-info">
+                    Resolving potential Website problems
                   </p>
                 </li>
               </ul>

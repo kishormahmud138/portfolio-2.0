@@ -81,10 +81,16 @@
     text-align: center;
 }
 
+
+
 .services-modal-title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: var(--m-2);
+    margin-bottom: var(--m-1);
+}
+
+.services-modal-description {
+    margin-bottom: var(--m-1);
 }
 
 .services-modal-services {
