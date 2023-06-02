@@ -70,10 +70,10 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "web",
+    name: "react",
   },
   {
-    name: "app",
+    name: "website",
   },
   {
     name: "design",
