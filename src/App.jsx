@@ -23,7 +23,7 @@ function App() {
         <Services></Services>
         <Qualification></Qualification>
         <Projects></Projects>
-        <Testimonial></Testimonial>
+        {/* <Testimonial></Testimonial> */}
         <Contact></Contact>
       </main>
 
